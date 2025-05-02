@@ -7,8 +7,8 @@ body{
     margin: 15px;
     padding: 0;
     line-height: 28px;
-    max-width: auto;
-    
+    letter-spacing: 0.1em;
+      
 }
 
 .container{
@@ -17,16 +17,32 @@ body{
 }
 
 .top-bar{
+    text-align: left;
+}
+
+.button-gallery{
     background-color: #FFD700;
     padding: 1px;
-    text-align: left;
-    border-radius: 15px;
+    width: 200px;
+    text-align: auto;
+    border-radius: 10px;
+    
 }
+
+.button-news{
+    background-color: #FFD700;
+    padding: 1px;
+    width: 200px;
+    text-align: auto;
+    border-radius: 10px;
+}
+
 
 a{
     text-decoration: none;
     padding-left: 10px;
     color: #000;
+    font-weight: bold;
 
 }
 
@@ -42,7 +58,8 @@ h1{
     color: #FFD700;
     font-family: 'Rye', Arial, Helvetica, sans-serif;
     margin-top: 0;
-    font-size: 70px;
+    font-size: 45px;
+    word-spacing: 0.1em;
 
 }
 
