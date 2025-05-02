@@ -43,9 +43,9 @@ p, ul{
 
 #image-base{
     width: 100%;
-    height: 200px;
+    height: 150px;
     opacity: 0.3;
     background-image: url('./imagens/Bandeira_de_Roraima.png');
     background-size: cover;
-    background-position: left;
+    background-position: center;
 }
