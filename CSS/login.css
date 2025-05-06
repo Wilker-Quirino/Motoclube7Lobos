@@ -1,0 +1,45 @@
+html{
+    background-color: #000;
+}
+
+body{
+    font-family: 'Rye', Arial, Helvetica, sans-serif;
+
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+.login-space{
+    max-width: 200px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #ffffffbb;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+input{
+    margin: 2px;
+    border-radius: 6px;
+}
+
+input[type="submit"]{
+    background-color: #ffd700;
+    font-weight: bolder;
+    margin-top: 15px;
+    cursor: pointer;
+}

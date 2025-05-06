@@ -11,6 +11,18 @@ body{
       
 }
 
+.button-login{
+    max-width: 100%;
+    text-align: right;
+    font-family: 'Rye', Arial, Helvetica, sans-serif;
+
+}
+
+.login{
+    color: white;
+    font-size: 20px;
+}
+
 .container{
     margin: 0;
     text-align: center;
@@ -52,10 +64,6 @@ a{
          
 }
 
-/* .mini-moto{
-    padding-right: 10px;
-} */
-
 h1{
     text-align: center;
     color: #FFD700;
@@ -87,7 +95,8 @@ p, ul{
     width: 150px;
     max-width: 200px;
     margin-left: auto;
-    
+    margin-bottom: 10px;
+   
 }
 
 .back{
@@ -99,7 +108,7 @@ p, ul{
     width: 100%;
     height: 150px;
     opacity: 0.3;
-    background-image: url('./imagens/Bandeira_de_Roraima.png');
+    background-image: url('../imagens/Bandeira_de_Roraima.png');
     background-size: cover;
     background-position: center;
     
